@@ -1,0 +1,46 @@
+﻿Phishing-Email-Detection/
+|-- app/
+|   +-- streamlit_app.py
+|-- data/
+|   |-- processed/
+|   |   +-- emails.csv
+|   +-- raw/
+|       |-- ceas/
+|       |-- enron/
+|       |-- nazario/
+|       +-- spamassassin/
+|           |-- easy_ham/
+|           |   +-- ... (2501 items)
+|           |-- easy_ham_2/
+|           |   +-- ... (2501 items)
+|           |-- spam/
+|           |   +-- ... (501 items)
+|           +-- spam_2/
+|               +-- ... (501 items)
+|-- models/
+|   |-- logistic_model.pkl
+|   |-- phishing_model.pkl
+|   |-- random_forest.pkl
+|   +-- tfidf_vectorizer.pkl
+|-- notebooks/
+|   |-- 01_EDA.ipynb
+|   |-- 02_Preprocessing.ipynb
+|   |-- 03_ModelTraining.ipynb
+|   +-- 04_RandomForest.ipynb
+|-- Phishing-Email-Detection/
+|-- reports/
+|   |-- project-folder-structure.png
+|   |-- project-folder-structure.txt
+|   +-- random_forest_confusion_matrix.png
+|-- src/
+|   |-- build_dataset.py
+|   |-- feature_extraction.py
+|   |-- parser.py
+|   |-- predict.py
+|   |-- preprocess.py
+|   |-- test_email.py
+|   +-- ... (3 more files)
+|-- .gitignore
+|-- README.md
+|-- requirements.txt
++-- sample.eml

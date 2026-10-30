@@ -1,0 +1,12 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Datasets (too large / third-party emails) - see README for download
+data/
+
+# Empty / local folders
+.agents/

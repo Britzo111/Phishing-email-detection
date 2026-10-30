@@ -1,0 +1,10 @@
+pandas
+numpy
+scikit-learn
+xgboost
+nltk
+shap
+streamlit
+joblib
+beautifulsoup4
+matplotlib
